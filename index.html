@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container w-25 mt-3">
+        <div class="row form-outline">
+            
+            <div class="col">
+                <label>
+                    Base:<input type="number"  id="base" class="form-control"/>
+                </label>
+            </div>
+            <div class="col">
+                <label>
+                    Exponente:<input type="number" id="exponente" class="form-control"/>
+                </label>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <div class="col">
+                <label>
+                    <button class="btn btn-primary" onclick="Potencia()">Calcular potencia</button>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center mt-3" id="result">Resultado</h1>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+</html>
